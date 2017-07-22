@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/location/map/map",
+    "pages/location/get-location/get-location",
+    "pages/location/open-location/open-location",
+    "pages/location/choose-location/choose-location",
+    "pages/location/getopen-location/getopen-location",
+    "pages/location/usemap/usemap"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "地理位置"
+  }
+}

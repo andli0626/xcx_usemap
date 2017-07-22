@@ -1,0 +1,7 @@
+<!-- map.wxml -->
+<map id="myMap" show-location style="width: 100%; height: 300px;" />
+
+<button type="primary" bindtap="getCenterLocation">获取地图中心经纬度</button>
+<button type="primary" bindtap="moveToLocation">将地图中心移动到当前定位点</button>
+<button type="primary" bindtap="translateMarker">平移marker，带动画</button>
+<button type="primary" bindtap="includePoints">缩放视野展示所有经纬度</button>

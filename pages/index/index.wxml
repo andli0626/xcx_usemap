@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="page-body">
+    <view class="btn-area">
+      <navigator url="../location/map/map" hover-class="navigator-hover">
+        <button type="default">地图加载</button>
+      </navigator>
+    </view>
+    <view class="btn-area">
+      <navigator url="../location/get-location/get-location" hover-class="navigator-hover">
+        <button type="default">位置获取</button>
+      </navigator>
+    </view>
+    <view class="btn-area">
+      <navigator url="../location/open-location/open-location" hover-class="navigator-hover">
+        <button type="default">位置查看</button>
+      </navigator>
+    </view>
+    <view class="btn-area">
+      <navigator url="../location/choose-location/choose-location" hover-class="navigator-hover">
+        <button type="default">位置选择</button>
+      </navigator>
+    </view>
+    <view class="btn-area">
+      <navigator url="../location/getopen-location/getopen-location" hover-class="navigator-hover">
+        <button type="default">定位查看</button>
+      </navigator>
+    </view>
+    <view class="btn-area">
+      <navigator url="../location/usemap/usemap" hover-class="navigator-hover">
+        <button type="default">高级用法</button>
+      </navigator>
+    </view>
+  </view>
+</view>
